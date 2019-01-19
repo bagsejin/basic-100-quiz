@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(void) {
+    
+    int a, b, c, d, e;
+    scanf("%1d%1d%1d%1d%1d", &a, &b, &c, &d, &e);
+    printf("[%d]", a * 10000);
+    putchar(10);
+    printf("[%d]", b * 1000);
+    putchar(10);
+    printf("[%d]", c * 100);
+    putchar(10);
+    printf("[%d]", d * 10);
+    putchar(10);
+    printf("[%d]", e);
+    
+    return 0;
+}
