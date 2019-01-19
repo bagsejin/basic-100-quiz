@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(void) {
+    
+    char voca[51];
+    scanf("%s", voca);
+    printf("%s", voca);
+    
+    return 0;
+}
