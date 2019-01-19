@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(void) {
+    
+    int fnum, bnum;
+    scanf("%d-%d", &fnum, &bnum);
+    printf("%06d%07d",fnum, bnum);
+    
+    return 0;
+}
