@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(void) {
+    
+    int arr[3];
+    int i;
+    for(i = 0; i < 3; i++) {
+        
+        scanf("%d", &arr[i]);
+    }
+    for(i = 0; i < 3; i++) {
+        
+        if(arr[i] % 2 == 0)
+        printf("%d\n", arr[i]);
+    }
+    
+    return 0;
+}
