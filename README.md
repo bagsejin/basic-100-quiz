@@ -2,7 +2,7 @@
 기초 100제
 
 
-All files are copyrighted to bagsejin.
+All files are copyrighted by bagsejin.
 
 
 If you want to use the file, please contact bagsejin060705@gmail.com.
