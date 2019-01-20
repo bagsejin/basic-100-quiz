@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(void) {
+    
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+    int i;
+    i = a;
+    int count = 1;
+    while(count < c){
+        
+        count++;
+        i += b;
+    }
+    
+    printf("%d", i);
+
+    return 0;
+}
