@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(void) {
+    
+    int arr[19][19] = {{0, }, {0, }};
+    int *darr;
+    int *sarr;
+    int n;
+    scanf("%d", &n);
+    darr = calloc(n, sizeof(int));
+    sarr = calloc(n, sizeof(int));
+    int i, j;
+    for(i = 0; i < n;i++) {
+        
+        scanf("%d %d", &darr[i], &sarr[i]);
+        arr[darr[i]-1][sarr[i]-1] = 1;
+    }
+    for(i = 0; i < 19; i++) {
+        
+        for(j = 0; j < 19; j++) {
+            
+            printf("%d ", arr[i][j]);
+        }
+        putchar(10);
+    }
+    
+    return 0;
+}
