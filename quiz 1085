@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void) {
+    
+    int h, b, c, s;
+    scanf("%d %d %d %d", &h, &b, &c, &s);
+    double sum = h*b*c*s;
+    double result = sum / 8.0 / 1024.0 / 1024.0;
+    
+    printf("%.1lf MB", result);
+    
+    return 0;
+}
