@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main(void) {
+    
+    int *arr;
+    int n;
+    int sarr[24] = {0, };
+    scanf("%d", &n);
+    int i, j;
+    arr = calloc(n, sizeof(int));
+    for(i = 0; i < n; i++) {
+        
+        scanf("%d", &arr[i]);
+        for(j = 0;j < 23; j++) {
+            
+            if(arr[i] == j)
+            sarr[j]++;
+        }
+    }
+    for(i = 1; i < 24; i++) {
+        
+        printf("%d ", sarr[i]);
+    }
+    
+    return 0;
+}
